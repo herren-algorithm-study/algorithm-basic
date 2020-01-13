@@ -1,3 +1,8 @@
+"""
+https://www.acmicpc.net/problem/2609
+"""
+
+
 def gcd(a: int, b: int) -> int:
     if b == 0:
         return a

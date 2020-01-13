@@ -1,3 +1,8 @@
+"""
+https://www.acmicpc.net/problem/1978
+"""
+
+
 def is_prime(n: int) -> bool:
     if n < 2:
         return False
