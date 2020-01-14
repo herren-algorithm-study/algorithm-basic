@@ -11,9 +11,14 @@ https://www.acmicpc.net/problem/9613
 https://www.acmicpc.net/problem/1978  
 https://www.acmicpc.net/problem/6588  
 ### 2주차 (01.14)
-chapter 2. 브루트 포스
+chapter 2. 브루트 포스  
+chapter 2. N중 for문  
+https://www.acmicpc.net/problem/1072  
+https://www.acmicpc.net/problem/1182  
+https://www.acmicpc.net/problem/1748  
+https://www.acmicpc.net/problem/10971  
+https://www.acmicpc.net/problem/12100  
 ### 3주차 (01.21)
-chapter 2. N중 for문
 chapter 2. 순열
 ### 4주차 (01.28)
 chapter 2. 재귀함수
