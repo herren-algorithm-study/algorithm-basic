@@ -44,10 +44,12 @@ if __name__ == '__main__':
             while i < num:
                 i = i + 2
                 
-                if is_decimal(i) and is_decimal(num - i):
-                    ret.append(f'{num} = {i} + {num - i}')
-                    find = True
-                    break
+                if is_decimal(i):
+                    arr.append(i)
+                    if is_decimal(num - i):
+                        ret.append(f'{num} = {i} + {num - i}')
+                        find = True
+                        break
         if not find:
             ret.append("Goldbach's conjecture is wrong.")
     for str in ret:
