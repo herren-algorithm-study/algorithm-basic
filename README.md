@@ -19,19 +19,25 @@ https://www.acmicpc.net/problem/1748
 https://www.acmicpc.net/problem/10971  
 https://www.acmicpc.net/problem/12100  
 ### 3주차 (01.21)
-chapter 2. 순열
+chapter 2. 순열  
+https://www.acmicpc.net/problem/14501   
+https://www.acmicpc.net/problem/1966  
+https://www.acmicpc.net/problem/15683  
+https://www.acmicpc.net/problem/1120  
+https://www.acmicpc.net/problem/2503  
+https://www.acmicpc.net/problem/1107  
 ### 4주차 (01.28)
 chapter 2. 재귀함수
 ### 5주차 (02.04)
-chapter 2. 비트마스크
+chapter 2. 비트마스크  
 chapter 3. n과 m
 ### 6주차 (02.11)
-chapter 4. 그래프
+chapter 4. 그래프  
 chapter 4. DFS, BFS
 ### 7주차 (02.18)
-chapter 4. 플러트 필
-chapter 4. BFS
-chapter 4. 덱 사용하기
+chapter 4. 플러트 필  
+chapter 4. BFS  
+chapter 4. 덱 사용하기  
 chapter 4. BFS2
 ### 8주차 (02.25)
 chapter 5. 다이나믹 프로그래밍
