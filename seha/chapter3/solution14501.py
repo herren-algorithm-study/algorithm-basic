@@ -2,34 +2,25 @@
 https://www.acmicpc.net/problem/14501
 퇴사
 """
-
 from functools import lru_cache
 
 
-def sum_value(days, values):
-    max_value = 0
-    for j in range(len(days)):
-        sum = 0
-        i = j
-        while i < len(days):
-            # 지금날의 소요일 <= 남은일
-            if days[i] <= len(days) - i:
-                # sum에 더하고 jumping
-                sum += values[i]
-                i = i + days[i] + 1
-                print(i)
-            else:
-                break
+@lru_cache(maxsize=None)
+def sum_value(max_day, idx, sum, pre_sum):
+    if idx == max_day:
+        return sum
+    if idx > max_day:
+        return pre_sum
+    a = sum_value(max_day, idx + 1, sum, sum)
+    b = sum_value(max_day, idx + days[idx], sum + values[idx], sum)
 
-        if max_value < sum:
-            max_value = sum
-
-    return max_value
+    return max(a, b)
 
 
 if __name__ == '__main__':
-    days, values = [], []
-    for i in range(int(input())):
-        day, value = map(int, input().split())
-        days.append(day)
-        values.append(value)
+    max_day = int(input())
+    days, values = [0] * max_day, [0] * max_day
+    for i in range(max_day):
+        days[i], values[i] = map(int, input().split())
+
+    print(sum_value(max_day, 0, 0, 0))
